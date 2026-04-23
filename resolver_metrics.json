@@ -1,0 +1,48 @@
+{
+  "confidence_histogram": {
+    "0.0-0.2": 0,
+    "0.2-0.4": 29922,
+    "0.4-0.6": 23765,
+    "0.6-0.8": 9667,
+    "0.8-1.0": 0
+  },
+  "feedback_events": 65,
+  "latency": {
+    "avg_ms": 0.036,
+    "last_ms": 0.027,
+    "samples": 128
+  },
+  "predict_requests": 63354,
+  "queue_timeouts": 2,
+  "retrain_runs": 4,
+  "stale_discards": 0,
+  "started_at": 1776883705.551,
+  "strategies": {
+    "BRUTE": {
+      "avg_latency_ms": 0.031,
+      "hits": 2,
+      "shots": 2,
+      "success_rate": 1.0
+    },
+    "FS": {
+      "avg_latency_ms": 0.039,
+      "hits": 9,
+      "shots": 11,
+      "success_rate": 0.8182
+    },
+    "LAST": {
+      "avg_latency_ms": 100.0,
+      "hits": 0,
+      "shots": 1,
+      "success_rate": 0.0
+    },
+    "ML": {
+      "avg_latency_ms": 0.036,
+      "hits": 34,
+      "shots": 51,
+      "success_rate": 0.6667
+    }
+  },
+  "success_rate": 0.6923,
+  "uptime_seconds": 1582.104
+}
