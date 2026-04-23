@@ -23,4 +23,4 @@
 ```bash
 git clone https://github.com/HxH-fan/mlr_server.git
 cd mlr_server
-python -m server
+python mlr_server.py
